@@ -149,7 +149,9 @@ def average_degree(input, output):
             #print(debug.debug_degree_list(degree_list))
             #print('Average degree = ' + debug.debug_degrees(degree_list) + str(average_degree))
             #output_file.write(debug.debug_degree_list(degree_list))
-            output_file.write('Average degree = ' + debug.debug_degrees(degree_list) + ' = ' + str(average_degree) + '\n')
+            #output_file.write('Average degree = ' + debug.debug_degrees(degree_list) + ' = ' + str(average_degree) + '\n')
+            #print(str(average_degree))
+            output_file.write(str(average_degree) + '\n')
             #test += debug.debug_degree_list(degree_list)
             #test += 'Average degree = ' + str(average_degree)+'\n\n'
 
