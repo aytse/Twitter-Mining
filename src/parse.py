@@ -6,7 +6,7 @@ import json
 # Returns a list of all unique hashtags
 def parse_hashtag(string):
     matches = [word for word in string.split() if word.startswith("#")]
-    return list(set(matches))
+    return [hashtag.lower() for hashtag in list(set(matches))]
 
 # Read JSON by line and creates a JSONArray using lines
 def parse_by_line(json_lines):
