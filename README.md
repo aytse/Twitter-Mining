@@ -18,5 +18,6 @@ Submission for the Insight Data Engineering - Coding Challenge
 * Feature 1 prints out all tweets followed by timestamps
 * Feature 2 prints out the running average of degrees for each node as well as the equation used to derive it
 * Has the option to debug hashtag graph if necessary
+* Used a one directional graph instead of a bidirectional one
 * May not have replaced the characters in unicode correctly
 
